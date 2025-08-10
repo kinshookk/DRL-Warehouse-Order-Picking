@@ -30,7 +30,7 @@ The DRL agent learned more compact and strategic paths, proving its effectivenes
 ### How to Run
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone https://github.com/kinshookk/DRL-Warehouse-Order-Picking
     ```
 2.  **Install dependencies:**
     The code requires Python and the following libraries:
