@@ -18,14 +18,22 @@ This project leverages Reinforcement Learning to create an adaptive system that 
 * **Performance Metrics**: The agents are evaluated on average steps, success rate, orders completed, and total reward.
 
 ### Results
-Experimental results show that the DQN agent significantly outperforms the rule-based agent, demonstrating clear learning and adaptability.
+Experimental results show that the DQN agent significantly outperforms the rule-based agent, demonstrating clear learning and adaptability over time. The agent's success rate and number of completed orders consistently improved as it gained more experience.
 
 | Metric | Rule-Based Agent | DQN Agent |
 | :--- | :--- | :--- |
 | **Success Rate** | 8.10% | **9.60%** |
 | **Avg. Orders Completed**| 1.97 | **2.31** |
 
-The DRL agent learned more compact and strategic paths, proving its effectiveness for dynamic logistics problems.
+The plots below visualize the learning progress and performance comparison:
+
+**Cumulative Success Rate**
+*The DQN agent's success rate steadily climbs and surpasses the rule-based agent, showing its ability to learn effective strategies.*
+![Cumulative Success Rate Plot](Cumulative_Success_Rate.png)
+
+**Orders Completed per Episode**
+*The DQN agent consistently completes more orders, highlighting its superior efficiency.*
+![Orders Completed Plot](Orders_Completed.png)
 
 ### How to Run
 1.  **Clone the repository:**
@@ -40,3 +48,6 @@ The DRL agent learned more compact and strategic paths, proving its effectivenes
     - `tqdm`
 3.  **Run the Notebook:**
     Open and run the `drl_warehouse_simulation.ipynb` file in a Jupyter environment.
+
+
+   
